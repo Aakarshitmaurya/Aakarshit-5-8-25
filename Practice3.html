@@ -13,44 +13,119 @@
       <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit distinctio quae expedita deleniti minima perspiciatis. Explicabo odio, repellat nulla exercitationem, facere ullam perferendis eveniet ipsum non quibusdam sint aliquid minus.</h2>
     </header>
   <!-- TODO: Add a <nav> with links to Home, About, and Contact pages -->
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact pages</a></li>
+        </ul>
+      </nav>
 
+    </header>
   <!-- TODO: Begin the <main> section -->
+    <main>
 
     <!-- TODO: Add a <section> introducing the event with an <article> that includes a short paragraph and maybe a quote -->
 
-    <!-- TODO: Add another <section> with the actual <form> for registration -->
+      <section>
+        <header>
+          <h3>Introducing</h3>
+        </header>
+        <article>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis impedit ab cum distinctio! Amet porro accusamus illo nisi tenetur vel unde cupiditate molestiae? Consectetur saepe placeat impedit non necessitatibus asperiores!</p>
+        </article>
 
-      <!-- TODO: Use a <form> tag with method="post" and action="#" -->
+
+      </section>
+    <!-- TODO: Add another <section> with the actual <form> for registration -->
+      <section>
+       
+
+      
+        <!-- TODO: Use a <form> tag with method="post" and action="#" -->
+          <form method="post" action="#"></form>
 
         <!-- TODO: Group related inputs using <fieldset> and <legend> -->
+           <fieldset>
+            <legend>Registration Form</legend>
+          
 
         <!-- TODO: Add input for Full Name (text) -->
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required><br><br>
         
         <!-- TODO: Add input for Email (type="email") -->
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required><br><br>
 
         <!-- TODO: Add input for Mobile Number (type="tel") -->
+             <label for="mobile">Mobile Number:</label>
+             <input type="tel" id="mobile" name="mobile" required><br><br>
 
         <!-- TODO: Add input for Age (type="number") -->
+             <label for="age">Age:</label>
+             <input type="number" id="age" name="age" min="0" required><br><br>
 
         <!-- TODO: Add a dropdown (select) for choosing your T-Shirt size (S, M, L, XL) -->
+             <label for="tshirt">T-Shirt Size:</label>
+             <select id="tshirt" name="tshirt">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+             </select><br>
 
         <!-- TODO: Add radio buttons for Gender (Male / Female / Other) -->
+              <p>Gender:</p>
+              <label><input type="radio" name="gender" value="Male"> Male</label>
+              <label><input type="radio" name="gender" value="Female"> Female</label>
+              <label><input type="radio" name="gender" value="Other"> Other</label><br>
 
         <!-- TODO: Add checkboxes for Sessions Interested In (AI, Web Dev, Cybersecurity) -->
+              <p>Sessions Interested In:</p>
+              <label><input type="checkbox" name="sessions" value="AI"> AI</label>
+              <label><input type="checkbox" name="sessions" value="Web Dev"> Web Dev</label>
+              <label><input type="checkbox" name="sessions" value="Cybersecurity"> Cybersecurity</label><br><br>
 
         <!-- TODO: Add a text area for writing a brief bio or motivation for joining -->
+              <label for="bio">Brief Bio / Motivation:</label>
+              <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
 
         <!-- TODO: Add a range input for rating your tech knowledge (0 to 10) -->
+              <label for="tech">Rate Your Tech Knowledge (0–10):</label>
+              <input type="range" id="tech" name="tech" min="0" max="10"><br><br>
 
         <!-- TODO: Add a submit button -->
+              <button type="submit">Submil</button>
 
-    <!-- TODO: End the form section -->
+        <!-- TODO: End the form section -->
+          </fieldset>
+         </form>
+       
+      </section>
+
 
     <!-- TODO: Add an <aside> for any notes or announcements (e.g., "Limited seats available!", "Bring your laptop.") -->
+       <aside>
+         <h3>Important Announcements</h3>
+         <ul>
+           <li>Limited seats available! Register early to secure your spot.</li>
+           <li> Bring your laptop for hands-on sessions.</li>
+           <li> Venue details will be shared via email after registration.</li>
+         </ul>
+       </aside>
 
   <!-- TODO: End the <main> section -->
+    </main>
 
   <!-- TODO: Add a <footer> with organizer name, contact info, and copyright -->
+    <footer>
+      <p>Organized by: Tech Group (EXL) 2025 </p>
+      <p>Contact: info@EXL.org | +91-XXXXXXXXXX</p>
+      <p>&copy; 2025 Tech Group (EXL) . All rights reserved.</p>
+    </footer>
+
+    
 
 </body>
 </html>
